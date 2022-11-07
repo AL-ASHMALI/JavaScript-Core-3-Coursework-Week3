@@ -70,3 +70,12 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+hogwarts.map((arr) => {
+if (arr.house === "Gryffindor"){
+  console.log(`${arr.firstName} ${arr.lastName}`);
+}if (arr.pet != null && arr.occupation === "Teacher"){
+  console.log(`${arr.firstName} ${arr.lastName}`);
+}
+})
+
